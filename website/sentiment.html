@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<!-- Styles CSS -->
+	<link rel="stylesheet" href="styles.css">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+	<title>Twitter Sentiment Analysis</title>
+</head>
+
+<body>
+
+	<div class="top-section container-fluid sticky-top" id="top">
+
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="index.html">COVID-19 DASHBOARD</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavFixed" aria-controls="NavFixed" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="NavFixed">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="data.html"  >DATA</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sentiment.html"  >SENTIMENT</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="prediction.html"  >PREDICTION</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="wiki.html"  >WIKI</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+
+	</div>
+
+	<div class="middle-section container-fluid" id="middle">
+		<div class="sub-section mt-4 pb-4">
+			<a href="sentiment.html"  ><p class="heading mb-4">Twitter Sentiment | Analyzing COVID-19 Tweets</p></a>
+			<div style="width:95%;  height:40rem; background-color:#3d486c; border-radius: 7px" class="sub-section mx-auto">
+                <iframe id="sentiment_graph" style="width:100%; height:40rem";
+                        src="data/sentiment_scatter.html">
+                </iframe>
+			</div>
+		</div>
+		<div class="sub-section mt-4 pb-4">
+			<p class="heading mb-4">Top words used by Twitteraties</p>
+			<div style="width:95%;  height:40rem; background-color:#3d486c; border-radius: 7px" class="sub-section mx-auto">
+                <iframe id="top_word" style="width:100%; height:40rem";
+                        src="data/word.html"></iframe>
+			</div>
+		</div>
+<!--
+		<div class="sub-section mt-4 pb-4">
+			<p class="heading mb-4">The Overall Trend</p>
+			<div style="width:95%;  height:20rem; background-color:#3d486c; border-radius: 7px" class="sub-section mx-auto">
+			</div>
+		</div>
+	</div>
+-->
+
+
+</div>
+
+	<div class="bottom-section container-fluid" id="bottom">
+		<p class="bottom-text">
+			<h1 class="heading">Sources</h1>
+            <a href="https://twitter.com/search?q=COVID19&src=typed_query" target="_blank"> Twiiter Analysis</a>
+		</p>
+	</div>
+
+	<!-- Optional JavaScript -->
+	<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+
+</html>

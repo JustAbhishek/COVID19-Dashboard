@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!--Google Fonts -->
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;700;900&family=Ubuntu&display=swap" rel="stylesheet">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+	<!-- Styles CSS -->
+	<link rel="stylesheet" href="styles.css">
+	<!-- Font Awesome -->
+	<script src="https://kit.fontawesome.com/1c9ad4b785.js" crossorigin="anonymous"></script>
+	<!-- Sortable JS library -->
+	<script src="sorttable.js"></script>
+	<title>Data Analytics</title>
+</head>
+
+<body>
+
+	<div class="top-section container-fluid sticky-top" id="top">
+		<nav class="navbar navbar-expand-lg navbar-dark">
+			<a class="navbar-brand" href="index.html">COVID-19 DASHBOARD</a>
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#NavFixed" aria-controls="NavFixed" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="NavFixed">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="data.html">DATA</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="sentiment.html">SENTIMENT</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="prediction.html">PREDICTION</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="wiki.html">WIKI</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+	</div>
+
+	<div class="middle-section container-fluid" id="middle">
+		<div class="sub-section">
+			<a href="data.html">
+				<p class="heading mt-4">India | States summary</p>
+			</a>
+			<div class="container-table pb-4">
+				<div class="scroll">
+					<table id="table" class="table table-borderless table-hover sortable">
+						<thead>
+							<tr class="myHeader navbar-fixed-top">
+								<th scope="col">Name</th>
+								<th scope="col">Confirmed</th>
+								<th scope="col">Active</th>
+								<th scope="col">Recovered</th>
+								<th scope="col">Deceased</th>
+							</tr>
+						</thead>
+						<tbody>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
+		<div class="sub-section mt-4 pb-4">
+			<p class="heading mb-4">TOTAL NUMBER OF DEATH </p>
+			<div style="width:95%;  height:40rem; background-color:#3d486c; border-radius: 7px" class="sub-section mx-auto">
+                <img src="data/anim.gif" alt="Bar Graph" style="width:100%;height:40rem;">
+			</div>
+		</div>
+		<div class="sub-section mt-4 pb-4">
+			<p class="heading mb-4">PIE REPRESENTATION</p>
+			<div style="width:70%;  height:40rem; background-color:#3d486c; border-radius: 7px" class="sub-section mx-auto">
+                <iframe id = "pie" style="width:100%; height:40rem" ;
+                        src = "data/piegraph.html"></iframe>
+			</div>
+		</div>
+		<div class="sub-section mt-4 pb-4">
+			<p class="heading mb-4">Daily COVID19 CASES</p>
+			<div style="width:95%;  height:40rem; background-color:#3d486c; border-radius: 7px" class="sub-section mx-auto">
+                <img src="data/graph.png" alt="Daily Cases" 
+                     style="width:100%; height:40rem">
+            </div>
+		</div>
+		<div class="sub-section mt-4 pb-4">
+			<p class="heading mb-4">STATE WISE CONFIRMED CASES</p>
+			<div style="width:65%;  height:40rem; background-color:#3d486c; border-radius: 7px" class="sub-section mx-auto">
+                <img src="data/map.png" alt="MAP clusters"
+                     style="width:100%;height:40rem">
+			</div>
+		</div>
+	</div>
+
+	<div class="bottom-section container-fluid" id="bottom">
+		<p class="bottom-text">
+			<h1 class="heading">Sources</h1>
+            <p><a href="https://www.mohfw.gov.in/" target="_blank">Ministry of Health and Family Welfare Gov of India</a></p>
+            <p><a href="https://www.kaggle.com/search?q=COVID19" target="_blank">Kaggle Dataset</a></p>
+	</div>
+
+	<!-- jQuery -->
+	<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	<!-- Optional JavaScript -->
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+	<!-- Custom JavaScript -->
+	<script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
