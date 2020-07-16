@@ -1,0 +1,36 @@
+sl_no,state_ut,confirmed_cases,active_cases,recovered_cases,death_cases
+2,Andhra Pradesh,6841,3244,3509,88
+3,Arunachal Pradesh,95,88,7,0
+8,Dadra and Nagar Haveli and Daman and Diu,45,36,9,0
+9,Delhi,44688,26351,16500,1837
+10,Goa,629,544,85,0
+11,Gujarat,24577,5962,17082,1533
+12,Haryana,8272,4406,3748,118
+13,Himachal Pradesh,560,180,372,8
+14,Jammu and Kashmir,5298,2454,2781,63
+15,Jharkhand,1839,709,1121,9
+1,Andaman and Nicobar Islands,44,11,33,0
+32,Tripura,1092,658,433,1
+33,Uttarakhand,1942,701,1216,25
+34,Uttar Pradesh,14091,5064,8610,417
+35,West Bengal,11909,5386,6028,495
+4,Assam,4319,2145,2166,8
+5,Bihar,6778,2093,4644,41
+6,Chandigarh,358,50,302,6
+7,Chhattisgarh,1781,736,1036,9
+16,Karnataka,7530,2980,4456,94
+17,Kerala,2622,1366,1236,20
+18,Ladakh,649,563,85,1
+19,Madhya Pradesh,11083,2455,8152,476
+20,Maharashtra,113445,50057,57851,5537
+21,Manipur,500,341,159,0
+22,Meghalaya,44,18,25,1
+23,Mizoram,121,120,1,0
+24,Nagaland,179,87,92,0
+25,Odisha,4163,1178,2974,11
+26,Puducherry,216,111,99,6
+27,Punjab,3371,838,2461,72
+28,Rajasthan,13216,3059,9849,308
+29,Sikkim,70,66,4,0
+30,Tamil Nadu,48019,20709,26782,528
+31,Telangana,5406,2188,3027,191
