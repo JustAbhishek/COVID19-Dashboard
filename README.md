@@ -13,3 +13,6 @@
 5)The WIKI part is just to spread awareness about COVID19 and there are important hyperlinks attached at the bottom of the page.
 
 Technologies used are Data-Science, Machine-Learning Algorithms, HTML5-CSS3.
+
+Check working video on Linkedin:
+https://www.linkedin.com/posts/abhishek-prasad-aa065310a_machinelearning-activity-6689596052615569408-Dnmx
