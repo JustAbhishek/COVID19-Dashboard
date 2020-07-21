@@ -14,5 +14,5 @@
 
 Technologies used are Data-Science, Machine-Learning Algorithms, HTML5-CSS3.
 
-Check working video on Linkedin:
+Check out working video on Linkedin:
 https://www.linkedin.com/posts/abhishek-prasad-aa065310a_machinelearning-activity-6689596052615569408-Dnmx
